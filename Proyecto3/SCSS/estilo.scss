@@ -1,0 +1,194 @@
+body{
+    background-image:url("https://cdn.pixabay.com/photo/2020/10/08/16/26/abstract-5638441_960_720.png");
+    background-size: cover;
+}
+/*Titulo de la marca*/
+p{
+    font-size: 50px;
+    color:#7CDBD5;
+    font-family: 'Rock Salt', cursive;
+    word-spacing: 100px;
+    letter-spacing: 45px;
+    text-align: center;
+    background-color: #F53240;
+}
+/*Menu*/
+.menu{
+    background-color:#7CDBD5;
+    word-spacing:100px;
+    text-align: center;
+    margin-top: 3px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    display:flex; 
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+a{
+    font-family: 'Otomanopee One', sans-serif;
+    font-size: 35px;
+    color:#F53240;
+    text-decoration: none;
+    text-align: justify;
+    list-style: none;
+}
+}
+/*Animacion*/
+.animacion{
+    width: 98%;
+    height: 560px;
+    overflow: hidden;
+
+ul{
+    display: flex;
+    animation: cambio 20s infinite alternate linear;
+    width: 400%;
+}
+li{
+    width: 100%;
+    list-style: none;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+@keyframes cambio{
+    0% { margin-left: 0;}
+    20% {margin-left: 0;}
+    25% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+    50% {margin-left: -200%;}
+    70% {margin-left: -200%;}
+    75% {margin-left: -300%;}
+    100% {margin-left: -300%;}
+}
+}
+/*Texto guia a Galeria*/
+h4{
+    font-family: 'Otomanopee One', sans-serif;
+    color:#F53240;
+    font-size: 25px;
+    background-color:#02C8A7;
+    text-align: center;
+}
+/*Seguinos en redes y texto inferior*/
+h1{
+    font-size: 25px;
+    color:#7CDBD5;
+    font-family: 'Otomanopee One', sans-serif;
+    text-align: center;
+    background-color: #F53240;
+}
+.seguinos{
+    text-align: center;
+}
+.seguinos__instagram{
+    width: 60px;
+    height: 60px;
+}
+.seguinos__facebook{
+    width: 60px;
+    height: 60px;
+}
+
+/*Contacto*/
+h3{
+    font-size: 20px;
+    color:#F53240;
+    font-family: 'Otomanopee One', sans-serif;
+    text-align: center;
+}
+.contacto{
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    justify-content: space-between;
+    background-color: #02C8A7;
+}
+.contacto__direcciontel{
+    font-size: 15px;
+    color:#F53240;
+    font-family: 'Otomanopee One', sans-serif;
+    text-align: center;
+}
+.contacto__texto{
+    font-size: 25px;
+    color:#F53240;
+    font-family: 'Otomanopee One', sans-serif;
+    text-align: center;
+    background-color: #F9BE02;
+}
+.contacto__maps{
+    width: 150px;
+    height: 160px;
+    margin-left: 15PX;
+}
+.contacto__instagram--logo{
+    width: 150px;
+    height: 160px;
+}
+.contacto__facebook--logo{
+    width: 150px;
+    height: 160px;
+    margin-right: 15PX;
+}
+/*Galeria*/
+.fotosGaleria{
+    margin-left: 25px;
+img{
+    width: 400px;
+    height: 400px;
+}
+ul{
+    display:inline-grid;
+    grid-template-columns: 50% 50%;
+    grid-column-gap:10px;
+    justify-content: space-between;
+    grid-row-gap:10px;
+    list-style: none;
+}
+}
+/*Sale y productos cards con precios*/
+.productosCardPrecios{
+    margin-left: 10px;
+    display:inline-grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-column-gap:10px;
+    justify-content: space-between;
+    grid-row-gap:10px;
+}
+.card-body{
+    font-family:'Otomanopee One', sans-serif;
+    font-size: 15px;
+    color:#F53240;
+    text-align:center;
+}
+.card-img-top{
+    width: 245px;
+    height: 245px;
+}
+.body__titulo{
+    margin-top: 15mm;
+}
+/*Productos por edades*/
+.productosPorEdades{
+    margin-left: 130px;
+    grid-template-rows: repeat(2fr);  
+}
+.productosPorEdades__0a12{
+    width: 640px;
+    height: 426px;
+}
+.productosPorEdades__12a24{
+    width: 640px;
+    height: 426px;
+}
+.productosPorEdades__24a32{
+    width: 640px;
+    height: 426px;
+}
+.productosPorEdades__mas32{
+    width: 640px;
+    height: 426px;
+}
